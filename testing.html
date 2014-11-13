@@ -1,0 +1,23 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal App</title>
+</head>
+<body>
+<button id="sbutton">Explore</button>
+<button id="clearbutton">Clear</button>
+	<div id="results"></div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script >
+	$('#sbutton').click(function(){
+		var name = "Floyd Eugene Matugas";
+		$('#results').append(name);
+	});
+
+	$('#clearbutton').click(function(){
+		$('#results').html('');
+
+	});
+</script>
+</body>
+</html>
